@@ -25,4 +25,5 @@ Our journey doesn't end here. We remain committed to enhancing the application b
 Thank you for exploring our repository. Feel free to delve into our codebase, documentation, and project history. We invite you to join us in shaping the future of smart utility management.
 
 Best regards,
+
 Syed
