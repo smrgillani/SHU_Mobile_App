@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "580033201098",
+    "project_id": "ase-project-d7b70",
+    "storage_bucket": "ase-project-d7b70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580033201098:android:1456bbcd9d9ffdd41f4533",
+        "android_client_info": {
+          "package_name": "com.smarthomeutility"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580033201098-3kbh4gjf3fsoikjvapd2k3bdjqmkdgmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smarthomeutility",
+            "certificate_hash": "3d2ade19ec77d0a5d39842ffb8aa837d8efc4732"
+          }
+        },
+        {
+          "client_id": "580033201098-q0rlgivt1nol2l39iqdfqb23hm0v1iku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX5BUf-NTrgS2FxjY8Oq4BlzXOuW3HEI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580033201098-q0rlgivt1nol2l39iqdfqb23hm0v1iku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

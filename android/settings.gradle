@@ -1,0 +1,21 @@
+rootProject.name = 'SmartHomeUtility'
+include ':react-native-wifi-reborn'
+project(':react-native-wifi-reborn').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wifi-reborn/android')
+include ':react-native-reanimated'
+project(':react-native-reanimated').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-reanimated/android')
+include ':react-native-wifi-reborn'
+project(':react-native-wifi-reborn').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-wifi-reborn/android')
+include ':react-native-bluetooth-state-manager'
+project(':react-native-bluetooth-state-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bluetooth-state-manager/android')
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../node_modules/react-native-gradle-plugin')
+
+if (settings.hasProperty("newArchEnabled") && settings.newArchEnabled == "true") {
+    include(":ReactAndroid")
+    project(":ReactAndroid").projectDir = file('../node_modules/react-native/ReactAndroid')
+}
